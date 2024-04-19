@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:has(h1,h2,h3,h4,h5,h6) {
+    text-align: center;
+    color: #a10512;
+}
+
+div{
+
+    background-color: #a10512;
+    color: white;
+    width: 50%;
+    border: 5px solid #000;
+    padding: 20px;
+    margin: 269px;
+}
